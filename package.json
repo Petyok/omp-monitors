@@ -1,0 +1,39 @@
+{
+  "name": "omp-monitors",
+  "version": "0.1.0",
+  "description": "Monitors for oh-my-pi (omp): the agent starts a watcher command and every batch of lines it prints wakes the agent, no polling.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Petr Netupskii",
+  "homepage": "https://github.com/Petyok/omp-monitors#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Petyok/omp-monitors.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Petyok/omp-monitors/issues"
+  },
+  "keywords": [
+    "omp",
+    "oh-my-pi",
+    "omp-extension",
+    "pi-package",
+    "monitor",
+    "watcher",
+    "background",
+    "agent"
+  ],
+  "omp": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "bun test"
+  }
+}
